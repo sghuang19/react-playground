@@ -8,12 +8,14 @@ import Footer from '../components/Footer'
 import './globals.css'
 
 const theme = createTheme()
+// TODO: Customize theme
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
+    const title = "Samuel's Website"
     return (
         <html lang="en">
             <head>
-                <title>My Portfolio</title>
+                <title>{title}</title>
                 <meta
                     name="viewport"
                     content="width=device-width, initial-scale=1"
