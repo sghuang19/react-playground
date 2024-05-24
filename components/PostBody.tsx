@@ -1,6 +1,6 @@
 // Adapted from Next.js blog-starter example
 import React from 'react'
-import markdownStyles from './md.module.css'
+import markdownStyles from '../styles/md.module.css'
 
 type Props = {
     content: string

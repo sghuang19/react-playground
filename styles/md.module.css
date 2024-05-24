@@ -1,0 +1,97 @@
+/* Adapted from Next.js blog-starter example */
+
+.markdown {
+    @apply text-lg leading-relaxed;
+}
+
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown blockquote {
+    @apply my-6;
+}
+
+.markdown h1 {
+    @apply text-4xl mt-16 mb-6 leading-snug font-bold;
+}
+
+.markdown h2 {
+    @apply text-3xl mt-12 mb-4 leading-snug font-bold;
+}
+
+.markdown h3 {
+    @apply text-2xl mt-8 mb-4 leading-snug font-bold;
+}
+
+.markdown h4 {
+    @apply text-xl mt-6 mb-2 leading-snug font-bold;
+}
+
+.markdown h5 {
+    @apply text-lg mt-4 mb-2 leading-snug font-bold;
+}
+
+.markdown h6 {
+    @apply text-base mt-4 mb-2 leading-snug font-bold;
+}
+
+.markdown pre,
+.markdown code {
+    @apply bg-gray-100 text-sm rounded p-2;
+}
+
+.markdown pre {
+    @apply overflow-x-auto;
+}
+
+.markdown code {
+    @apply font-mono;
+}
+
+.markdown blockquote {
+    @apply border-l-4 border-gray-300 pl-4 italic text-gray-700;
+}
+
+.markdown a {
+    @apply text-blue-600 underline;
+}
+
+.markdown img {
+    @apply max-w-full h-auto;
+}
+
+.markdown table {
+    @apply w-full my-6;
+}
+
+.markdown th {
+    @apply bg-gray-200 font-bold p-2 border;
+}
+
+.markdown td {
+    @apply p-2 border;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    .markdown {
+        @apply text-gray-300;
+    }
+
+    .markdown pre,
+    .markdown code {
+        @apply bg-gray-800 text-gray-200;
+    }
+
+    .markdown blockquote {
+        @apply border-gray-600 text-gray-400;
+    }
+
+    .markdown th {
+        @apply bg-gray-700;
+    }
+
+    .markdown td {
+        @apply border-gray-600;
+    }
+}

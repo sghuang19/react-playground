@@ -5,7 +5,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import './globals.css'
+import '@/styles/globals.css'
 
 const theme = createTheme()
 // TODO: Customize theme
