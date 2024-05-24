@@ -1,5 +1,5 @@
 ---
-title: 'My First Blog Post'
+title: 'My First Blog Page'
 description: 'This is a description for my first blog post.'
 date: '2022-01-01'
 thumbnail: '../public/vercel.svg'

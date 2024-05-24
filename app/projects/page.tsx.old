@@ -9,6 +9,6 @@ export const getStaticProps: GetStaticProps = async () => {
     return getStaticPropsForBlogPost(filePath)
 }
 
-const Post = (props) => <BlogPost {...props} />
+const Page = (props) => <BlogPost {...props} />
 
-export default Post
+export default Page
