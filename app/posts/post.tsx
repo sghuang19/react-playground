@@ -1,0 +1,14 @@
+import BlogPost, { getStaticPropsForBlogPost } from '@/components/BlogPost'
+import { GetStaticProps } from 'next'
+import path from 'path'
+import React from 'react'
+
+export const getStaticProps: GetStaticProps = async () => {
+    const postDirectory = path.join(process.cwd(), 'posts')
+    const filePath = path.join(postDirectory, 'post.md')
+    return getStaticPropsForBlogPost(filePath)
+}
+
+const Post = (props) => <BlogPost {...props} />
+
+export default Post
